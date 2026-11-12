@@ -19,6 +19,10 @@ dependencies = [
     "isort (>=6.0.1,<7.0.0)",
     "pytest-cov (>=6.1.1,<7.0.0)",
     "coverage (>=7.8.0,<8.0.0)",
+    # PR review agent (agent.py)
+    "llama-index-core (>=0.14.25,<0.15.0)",
+    "llama-index-llms-openai-like (>=0.8.1,<0.9.0)",
+    "pygithub (>=2.10.0,<3.0.0)",
 ]
 
 [build-system]
